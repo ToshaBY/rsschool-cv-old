@@ -50,9 +50,7 @@ console.log(countCats(arr));
 * English (B2)
 
 ## Education
-### Bachelor of science
-
-2007-2012
+### Bachelor of science (2007-2012)
 
 **Francisk Skorina Gomel State University**
 
@@ -60,43 +58,21 @@ Physicist. Engineer
 
 Laser physics and spectrometry
 
-### X-RAY diffraction analisys of inorganic materials
-
-2014
+### X-RAY diffraction analisys of inorganic materials (2014)
 
 **Lomonosov Moscow State University**
 
 Additional education
 
 ## Work experience
-### Engineer of X-RAY analysis
-
-2012-2016
-
-**OJSC “BSW - management company of “BMC” holding”**
-
-Metallographic laboratory of Central Plant Lab.
-
-### Head of steelcord and wire production department of Central Plant Lab
-
-2016-2017
-
-**OJSC “BSW - management company of “BMC” holding”**
-
-Central Plant Lab
-
-### Deputy Chief of Central Plant Lab
-
-2017-2018
-
-**OJSC “BSW - management company of “BMC” holding”**
-
-Central Plant Lab
-
-### Consulting engineer
-
-2018-Present
-
+### Consulting engineer (2018-Present)
 **Theseus Lab s.r.o.**
 
-Technical dpt.
+### Deputy Chief of Central Plant Lab (2017-2018)
+**OJSC “BSW - management company of “BMC” holding”**
+
+### Head of steelcord and wire production department of Central Plant Lab (2016-2017)
+**OJSC “BSW - management company of “BMC” holding”**
+
+### Engineer of X-RAY analysis (2012-2016)
+**OJSC “BSW - management company of “BMC” holding”**
