@@ -5,14 +5,15 @@
 * E-mail: [anton.rybakou@gmail.com](mailto:anton.rybakou@gmail.com)
 * GitHub: [ToshaBY](https://github.com/ToshaBY)
 * LinkenIn: [Anton Rybakov](https://www.linkedin.com/in/tosharybakov/)
+* Discord: Tosha (@toshaby)
 
 ## Skills
 * HTML/CSS (beginner)
 * JavaScript (beginner)
 * Git/GitHub (beginner)
-* Soft skills
 * MS Office (Word, Excel, PowerPoint)
 * AutoCad, Solidworks
+* Soft skills
 * Project management
 
 ## Code examples
@@ -50,29 +51,30 @@ console.log(countCats(arr));
 * English (B2)
 
 ## Education
-### Bachelor of science (2007-2012)
-
-**Francisk Skorina Gomel State University**
-
-Physicist. Engineer
-
-Laser physics and spectrometry
 
 ### X-RAY diffraction analisys of inorganic materials (2014)
 
-**Lomonosov Moscow State University**
+> **Lomonosov Moscow State University**
+> 
+> Additional education
 
-Additional education
+### Bachelor of science (2007-2012)
+
+>**Francisk Skorina Gomel State University**
+>
+>Physicist. Engineer
+>
+>Laser physics and spectrometry
 
 ## Work experience
 ### Consulting engineer (2018-Present)
-**Theseus Lab s.r.o.**
+>**Theseus Lab s.r.o.**
 
 ### Deputy Chief of Central Plant Lab (2017-2018)
-**OJSC “BSW - management company of “BMC” holding”**
+>**OJSC “BSW - management company of “BMC” holding”**
 
 ### Head of steelcord and wire production department of Central Plant Lab (2016-2017)
-**OJSC “BSW - management company of “BMC” holding”**
+>**OJSC “BSW - management company of “BMC” holding”**
 
 ### Engineer of X-RAY analysis (2012-2016)
-**OJSC “BSW - management company of “BMC” holding”**
+>**OJSC “BSW - management company of “BMC” holding”**
