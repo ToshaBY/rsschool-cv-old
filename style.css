@@ -1,0 +1,52 @@
+.wrap {
+    max-width: 1230px;
+    padding: 15px;
+    margin: 30px auto;
+}
+
+.header {
+    margin-bottom: 50px;
+}
+
+.header_block {
+    display: flex;
+    align-items: center;
+}
+
+.header_photo img {
+    max-width: 100px;
+    border-radius: 50%;
+}
+
+.header_column {
+    margin-left: 5%;
+}
+.header_name {
+    text-transform: uppercase;
+    font-size: 40px;
+}
+
+body {
+    font-family: "Times New Roman", Serif, serif;
+    font-size: 16px;
+}
+
+code {
+    font-family: Consolas, "courier new", serif;
+    color: darkblue;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    margin: 5px;
+}
+
+.footer_img img {
+    max-width: 100px;
+    padding: 10px;
+}
+
+.footer_year {
+    padding: 10px;
+}
