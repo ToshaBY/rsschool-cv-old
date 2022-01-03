@@ -6,9 +6,147 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="style.css">
-    <title>RSschool-cv-html</title>
+    <title>Anton Rybakov CV</title>
 </head>
 <body>
-    <p class="block-grey">This some text for test</p>
+<div class="wrap">
+
+    <header class="header">
+        <div class="header_block">
+            <div class="header_photo">
+                <img src="images/photo.jpg" alt="my photo">
+            </div>
+            <div class="header_column">
+                <h1 class="header_name">anton rybakov</h1>
+                <div>
+                    RSschool student (JS Front-end developer)
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <nav class="menu">
+            <h2>
+                Content
+            </h2>
+            <ul>
+                <li><a href="#contacts">Contacts</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#code">Code examples</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#languages">Languages</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#work">Work experience</a></li>
+            </ul>
+        </nav>
+        <section>
+            <h2 id="contacts">
+                Contacts
+            </h2>
+            <ul>
+                <li>Phone: +375 33 683 20 24</li>
+                <li>E-mail: <a href="mailto:anton.rybakou@gmail.com" target="_blank">anton.rybakou@gmail.com</a></li>
+                <li>GitHub: <a href="https://github.com/ToshaBY" target="_blank">ToshaBY</a></li>
+                <li>LinkenIn: <a href="https://www.linkedin.com/in/tosharybakov/" target="_blank">Anton Rybakov</a></li>
+                <li>Discord: Tosha (@toshaby)</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="about">About</h2>
+            <p>
+                I'm a good specialist in my field, but want to change something. Always wanted to be a programmer, and
+                I'm about to learn JavaScript this time!
+            </p>
+            <h2 id="skills">Skills</h2>
+            <ul>
+                <li>HTML/CSS (beginner)</li>
+                <li>JavaScript (beginner)</li>
+                <li>Git/GitHub (beginner)</li>
+                <li>MS Office (Word, Excel, PowerPoint)</li>
+                <li>AutoCad, Solidworks</li>
+                <li>Soft skills</li>
+                <li>Project management</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="code">Code examples</h2>
+            <pre>
+                <code>
+// ver 1.0
+let arr = [[1, 2, '^^', 5], [3, '^^', '^^'], ['^^', 4, '^^'], ['^^', 5, 6]];
+
+function countCats(array) {
+    let count = 0;
+    for (let x = 0; x < array.length; x++) {
+        for (let y = 0; y < array[x].length; y++) {
+            if (array[x][y] === '^^')
+                count++
+        }
+    }
+    return count;
+}
+
+console.log(countCats(arr));
+                </code>
+                <code>
+// ver final
+let arr = [[1, 2, '^^', 5], [3, '^^', '^^'], ['^^', ['^^', 1, 2, ['^^']], '^^'], ['^^', 5, 6]];
+
+function countCats() {
+    const result = arr.flat(Infinity).filter(word => word === '^^');
+    return result.length;
+}
+
+console.log(countCats(arr));
+                </code>
+            </pre>
+        </section>
+        <section>
+            <h2 id="projects">Projects</h2>
+            <ul>
+                <li><a href="https://github.com/ToshaBY/rsschool-cv" target="_blank">RS school CV project</a></li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="languages">Languages</h2>
+            <ul>
+                <li>Russian (native);</li>
+                <li>English (B2)</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="education">Education</h2>
+            <ul>
+                <li>RSschool stage0 (2021-present)</li>
+                <li>Lomonosov Moscow State University (2014)</li>
+                <li>Francisk Skorina Gomel State University (2007-2012)</li>
+            </ul>
+        </section>
+        <section>
+            <h2 id="work">Work experience</h2>
+            <ul>
+                <li>Theseus Lab s.r.o. (2018-Present)</li>
+                <li>OJSC “BSW - management company of “BMC” holding” (2012-2018)</li>
+            </ul>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer_img">
+            <a href="https://github.com/ToshaBY" target="_blank">
+                <img src="images/Octocat.jpg" alt="github logo">
+            </a>
+        </div>
+        <div class="footer_img">
+            <a href="https://rs.school/js/" target="_blank">
+                <img src="images/rsschool.png" alt="rs logo">
+            </a>
+        </div>
+        <div class="footer_year">2022</div>
+    </footer>
+</div>
+
 </body>
 </html>
