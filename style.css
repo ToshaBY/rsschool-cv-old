@@ -1,11 +1,13 @@
 .wrap {
-    max-width: 1230px;
-    padding: 15px;
+    max-width: 1000px;
+    padding: 20px;
     margin: 30px auto;
+    border-radius: 30px;
+    background: rgb(0, 0, 0, 0.4);
 }
 
 .header {
-    margin-bottom: 50px;
+    margin-bottom: 40px;
 }
 
 .header_block {
@@ -16,24 +18,49 @@
 .header_photo img {
     max-width: 100px;
     border-radius: 50%;
+    margin-left: 20px;
+    margin-top: 20px;
 }
 
 .header_column {
     margin-left: 5%;
+    color: greenyellow;
 }
+
 .header_name {
     text-transform: uppercase;
     font-size: 40px;
 }
 
 body {
-    font-family: "Times New Roman", Serif, serif;
+    font-family: "Andale Mono", sans-serif;
     font-size: 16px;
+    color: greenyellow;
+    background: url(/images/carbon_fibre.png) repeat;
+}
+
+h2 {
+    font-weight: bolder;
+}
+
+pre {
+    white-space: pre-wrap;
 }
 
 code {
     font-family: Consolas, "courier new", serif;
-    color: darkblue;
+    font-weight: bold;
+    color: deeppink;
+}
+
+a {
+    font-family: "Andale Mono", sans-serif;
+    color: red;
+}
+
+a:hover {
+    color: deeppink;
+    transition: 0.5s;
 }
 
 .footer {
